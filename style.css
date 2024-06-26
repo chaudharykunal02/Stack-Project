@@ -544,11 +544,35 @@ text-decoration: none;
     align-items: center;  
 }
 .message{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     display: flex;
-
+    margin-top: 4rem;
+    /* padding: 12rem; */
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: #3b4045;
+    margin-bottom: 5rem;
 }
 .m-left{
-    display: fl;
+    width: 60%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    li{
+        font-size: 95px;
+        list-style: none;
+        color:#e7700d;
+    }
+}
+.thri-nearby{
+    font-size: 27px;
+}
+.m-right{
+    /* border: 2px solid green; */
+}
+.thri-we{
+    font-size: 24px;
+    font-weight: bold;
+
 }
