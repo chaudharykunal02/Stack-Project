@@ -112,7 +112,7 @@
             font-size: 14px;
             li:hover{
                 color: rgb(114, 114, 251);
-                text-decoration: underline;
+                /* text-decoration: underline; */
             }
             .main-footer {
                 /* border: 2px solid red; */
@@ -121,6 +121,7 @@
                 /* align-items: center; */
                 justify-content: space-around;
                 width: 92%;
+               
                 ul {
                     list-style: none;
                 }
@@ -128,7 +129,7 @@
                 .l-footer {
                     /* border: 2px solid green; */
                     width: 34%;
-
+                    flex-wrap: wrap;
                     .l-f-img {
                         width: 100%;
                         border-bottom: 1px solid orangered;
@@ -257,6 +258,9 @@
        }
        .powered{
         color: #636b74;
+        a{
+            text-decoration: none;
+        }
        }
 
        .content{
@@ -267,6 +271,18 @@
         justify-content: center;
         align-items: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       li a{
+        text-decoration: none;
+        color: black;
+       }
+       li a:hover{
+        color: rgb(65, 65, 251);
+        border-bottom: 0.5px solid blue;
+        text-decoration: none;
+       }
+       span a{
+        text-decoration: none;
        }
     </style>
 </head>
@@ -317,41 +333,41 @@
                 <div class="stack-team">
                     <div class="l-f-main">
                         <div class="left-stack"><br><br>
-                            <span class="heading-span">Stack OverFlow for Teams</span><br><br><br>
+                            <span class="heading-span"><a href="">Stack OverFlow for Teams</a></span><br><br><br>
                             <ul>
-                                <li>Pricing</li>
-                                <li>Customers</li>
-                                <li>Our solution</li>
-                                <li>Integration</li>
-                                <li>Features</li>
-                                <li>Customers Success</li>
-                                <li>Security</li>
-                                <li>Return on Investment(RO)</li><br><br>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Customers</a></li>
+                                <li><a href="">Our solution</a></li>
+                                <li><a href="">Integration</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Customers Success</a></li>
+                                <li><a href="">Security</a></li>
+                                <li><a href="">Return on Investment(RO)</a></li><br><br>
                             </ul>
                             <div class="mid-left-footer">
                                 <span class="Overflow">OverFlow <span class="new">NEW</span></span><br>
                                 <span class="now">Now available on Enterprise</span><br><br><br>
                             </div>
                             <div class="try-footer">
-                                <span>Try free</span><br><br>
-                                <span>Log in</span>
+                                <span><a href="">Try free</a></span><br><br>
+                                <span><a href="">Log in</a></span>
                             </div>
                         </div>
                         <div class="right-stack"> <br><br><br><br><br>
                             <ul>
-                                <li>Use cases</li>
-                                <li>Engineers</li>
-                                <li>Data Scientists</li>
-                                <li>DevOps & SRE</li>
-                                <li>Support</li>
-                                <li>Product Management</li><br><br>
-                                <li>Resources</li>
-                                <li>Productivity</li>
-                                <li>AI/ML</li>
-                                <li>Guides and Insights</li>
-                                <li>Customers Academy</li><br><br>
-                                <li>FAQ</li>
-                                <li>Help Centre</li>
+                                <li><a href="">Use cases</a></li>
+                                <li><a href="">Engineers</a></li>
+                                <li><a href="">Data Scientists</a></li>
+                                <li><a href="">DevOps & SRE</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Product Management</a></li><br><br>
+                                <li><a href="">Resources</a></li>
+                                <li><a href="">Productivity</a></li>
+                                <li><a href="">AI/ML</a></li>
+                                <li><a href="">Guides and Insights</a></li>
+                                <li><a href="">Customers Academy</a></li><br><br>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Help Centre</a></li>
                             </ul>
                         </div>
                     </div>
@@ -360,55 +376,55 @@
             <div class="mid-f">
                 <div class="mid-f-main">
                     <div class="ad-left"><br><br>
-                        <span class=".heading-span add">Stack Overflow Adervertising</span><br><br><br>
+                        <span class=".heading-span add"><a href="">Stack Overflow Adervertising</a></span><br><br><br>
                         <ul>
-                            <li>Why Stack Overflow</li>
-                            <li>What to expect</li>
-                            <li>Advertise to developers</li>
-                            <li>Attract tech talent</li>
-                            <li>Engage your community</li><br><br><br>
-                            <li id="post">Post a job</li>
-                            <span class="powered">Powered by Indeed</span>
+                            <li><a href="">Why Stack Overflow</a></li>
+                            <li><a href="">What to expect</a></li>
+                            <li><a href="">Advertise to developers</a></li>
+                            <li><a href="">Attract tech talent</a></li>
+                            <li><a href="">Engage your community</a></li><br><br><br>
+                            <li id="post"><a href="">Post a job</a></li>
+                            <span class="powered"><a href="">Powered by Indeed</a></span>
                         </ul>
                     </div>
                     <div class="ad-right"><br><br><br><br><br><br>
-                        <span>Use cases</span><br>
-                        <li>marketing Teams</li>
-                        <li>Employer Branding Teams</li>
-                        <li>DevRel Teams</li>
-                        <li>Talent Teams</li>
-                        <li>Technology Teams</li>
-                        <li>Agencies</li><br><br>
-                        <span>Resources</span>
-                        <li>Product guides and insights</li>
-                        <li>Community insights</li>
-                        <li>Advertising best practices</li>
-                        <li>Talent best practices</li>
-                        <li>Collectives<sup>TM</sup></li>
+                        <span><a href="">Use cases</a></span><br>
+                        <li><a href="">marketing Teams</a></li>
+                        <li><a href="">Employer Branding Teams</a></li>
+                        <li><a href="">DevRel Teams</a></li>
+                        <li><a href="">Talent Teams</a></li>
+                        <li><a href="">Technology Teams</a></li>
+                        <li><a href="">Agencies</a></li><br><br>
+                        <span><a href=""><a href="">Resources</a></a></span>
+                        <li><a href="">Product guides and insights</a></li>
+                        <li><a href="">Community insights</a></li>
+                        <li><a href="">Advertising best practices</a></li>
+                        <li><a href="">Talent best practices</a></li>
+                        <li><a href="">Collectives</a><sup>TM</sup></li>
                     </div>
                 </div>
             </div>
             <div class="r-footer">
                 <ul class="mode">
-                    <li class="green">Lights</li>
-                    <li>Dark</li>
-                    <li class="auto">Auto</li>
+                    <li class="green"><a href="">Lights</a></li>
+                    <li><a href="">Dark</a></li>
+                    <li class="auto"><a href="">Auto</a></li>
                 </ul><br><br>
-                <span class="heading-span">Company</span><br><br><br>
-                <span class="Overflow">OverflowAPI<span class="new">NEW</span></span><br><br>
+                <span class="heading-span"><a href="">Company</a></span><br><br><br>
+                <span class="Overflow"><a href="">OverflowAPI</a><span class="new">NEW</span></span><br><br>
                 <span class="now">Stack Overflow's <br> subscription-based API <br>service to train and fine- <br> tune large models.</span><br><br><br>
                 <span>About</span><br>
                 <ul>
-                    <li>Leadership</li>
-                    <li>Social Impact</li>
-                    <li>Press</li>
-                    <li>Careers</li>
-                    <li>Open positions</li>
-                    <li>Contact us</li><br><br>
-                    <li>Blog</li>
-                    <li>Newsletter</li>
-                    <li>Podcast</li>
-                    <li>Labs</li>
+                    <li><a href="">Leadership</a></li>
+                    <li><a href="">Social Impact</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Open positions</a></li>
+                    <li><a href="">Contact us</a></li><br><br>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Newsletter</a></li>
+                    <li><a href="">Podcast</a></li>
+                    <li><a href="">Labs</a></li>
                 </ul>
             </div>
         </div>
