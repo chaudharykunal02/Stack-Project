@@ -324,6 +324,7 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;  
+    flex-direction: column;
 }
 .container-first-page-main{
     width: 80%;
@@ -373,3 +374,38 @@ text-decoration: none;
     top: 2.5rem;
     
 }
+
+/* Stack Overflow for Teams is an enterprise-grade knowledge sharing platform your developers already know and trust. */
+
+.container-second-page-main{
+    /* border: 2px solid red; */
+    width:  80%;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    margin-top: 3.5rem;
+    p{
+        font-size: 34px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 19px;
+        border-bottom: 2px solid rgb(110, 110, 249);
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        color: #1b75d0;
+    }
+}
+.sec-img{
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px;
+}
+.sec-bold{
+    font-weight: bold;
+}
+
