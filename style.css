@@ -13,9 +13,9 @@
     cursor: pointer;
     padding: 1rem;
     justify-content: space-between;
-
-    /* top: 0px;
-    position: fixed; */
+    /* position: fixed;
+    top: 0;
+    background-color: #fff; */
     ul {
         display: flex;
         width: 100%;
@@ -364,13 +364,13 @@ text-decoration: none;
 }
 #position-logo-stack1{
     position: relative;
-    right: 38rem;
+    right: 36.7rem;
     top: 30rem;
     
 }
 #position-logo-stack2{
     position: absolute;
-    left: 66rem;
+    left: 65.5rem;
     top: 2.5rem;
     
 }
@@ -388,6 +388,7 @@ text-decoration: none;
     flex-direction: column;
     font-family: "Source Sans Pro", Arial, sans-serif;
     margin-top: 3.5rem;
+    position: relative;
     p{
         font-size: 34px;
     }
@@ -407,5 +408,38 @@ text-decoration: none;
 }
 .sec-bold{
     font-weight: bold;
+}
+#impact1{
+    border-radius: 200px;
+    width: 14rem;
+    position: absolute;
+    left: 47rem;
+    top: 14rem;
+    box-shadow: 1px 1px 1px 1px;
+}
+#impact1:hover{
+    width:15rem ;
+}
+#impact2{
+    border-radius: 200px;
+    width: 14rem;
+    position: absolute;
+    left: 47rem;
+    top: 28rem;
+    box-shadow: 1px 1px 1px 1px;
+}
+#impact2:hover{
+    width:15rem ;
+}
+#impact3{
+    border-radius: 200px;
+    width: 14rem;
+    position: absolute;
+    right: 47rem;
+    top: 32rem;
+    box-shadow: 1px 1px 1px 1px;
+}
+#impact3:hover{
+    width:15rem ;
 }
 
