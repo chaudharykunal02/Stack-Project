@@ -90,6 +90,8 @@ li {
     font-size: 13px;
 }
 
+    /* footer part */
+
 .footer {
     font-family: "Source Sans Pro", Arial, sans-se;
     /* border: 2px solid blue; */
@@ -280,3 +282,94 @@ span a{
 text-decoration: none;
 }
 
+/* copyRight Section */
+.copyright{
+    width: 100%;
+    border-top: 1px solid black;
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 1.5rem;
+    font-family: "Source Sans Pro", Arial, sans-se;
+    font-size: 12px;
+   margin-bottom: 4rem;
+}
+.copyright-left{
+    width: 30%;
+    /* border: 2px solid blue; */
+    color: #636b74;
+}
+.copyright-right{
+    width: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    ul{
+        /* border: 2px solid blue; */
+        width: 90%;
+        display: flex;
+        justify-content: end;
+        justify-content: space-around;
+        align-items: end;
+        list-style: none;
+    }
+}
+
+/* Stack Overflow for your team, now powered by Area */
+
+.container{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 1000vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.container-first-page-main{
+    width: 80%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+    margin-top: 3.3rem;
+    position: relative;
+}
+.First-overflow{
+    font-size: 55px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    /* font-weight: bold; */
+}
+.first-team{
+    font-weight: bolder;
+}
+.expert{
+    text-decoration: none;
+    color: white;
+    background-color: #e7700d;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 13px;
+    width: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.expert:hover{
+    background-color: #b86624;
+}
+#position-logo-stack1{
+    position: relative;
+    right: 38rem;
+    top: 30rem;
+    
+}
+#position-logo-stack2{
+    position: absolute;
+    left: 66rem;
+    top: 2.5rem;
+    
+}
