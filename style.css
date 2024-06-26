@@ -574,5 +574,36 @@ text-decoration: none;
 .thri-we{
     font-size: 24px;
     font-weight: bold;
-
+}
+.preferred-main{
+    /* border: 2px solid blue; */
+    width: 65%;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    text-align: center;
+    margin-top: 14rem;
+}
+.para-preferred{
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 1rem;
+    span{
+        font-weight: bold;
+    }
+}
+.para-companies{
+    font-size: 21px;
+}
+#p-img{
+    width: 85%;
+    margin-bottom: 3rem;
+}
+.a-pre{
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+}
+#p-a{
+    margin-top: 3rem;
+    /* border: 2px solid green; */
+    font-size: 19px;
+    color: #1b75d0;
 }
