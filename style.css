@@ -458,9 +458,10 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
     background-color: #f9f9f4;
+    flex-direction: column;
 }
 .container-third-page-main{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -478,6 +479,7 @@ text-decoration: none;
     padding: 1rem;
     border-radius: 30px;
     color: orangered;  
+    
 } 
 .thri-bring{
     font-size: 34px;
@@ -485,4 +487,68 @@ text-decoration: none;
 }
 .thri-into{
     font-weight: bold;
+}
+#thri-a{
+    font-size: 19px;
+    color: #1b75d0; 
+}
+.thri-down{
+    border: 2px solid olive;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #3b4045;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.thri-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    width: 100%;
+    margin-top: 2rem;
+}
+.thri-card{
+    border:0.1px solid white ;
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    width: 30%;
+    border-radius: 10px;
+    height: 6rem;
+  
+}
+.s-card{
+    padding: 1.44rem;
+}
+.thri-search{
+    background-color: #e7700d;
+    color: #ffffff;
+    border: 2px solid #e7700d;
+}
+.thri-summarize{
+    font-size:21px ;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.thri-img{
+    /* border: 2px solid blue; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.message{
+    border: 2px solid red;
+    width: 80%;
+    display: flex;
+
+}
+.m-left{
+    display: fl;
 }
