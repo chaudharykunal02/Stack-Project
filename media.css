@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1050px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        /* border: 2px solid red; */
+
+        .navbar{
+            display: none;
+            overflow: hidden;
+        }
+       .m-navbar{
+        /* border: 2px solid green; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+       }
+        .m-navbar ul{
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            justify-content:space-between ;
+            list-style: none;
+        }
+    }
+  }
+  @media only screen and (min-width: 1050px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .m-navbar{
+        display: none;
+    }
+  }
+
+  /* stack overflow team */
+
+  @media only screen and (max-width: 430px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-first-page-main{
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 100vh;
+    }
+    .First-overflow{
+        /* border: 2px solid blue; */
+        font-size: 40px;
+    }
+    #position-logo-stack1{
+        display: none;
+    }
+    #position-logo-stack2{
+        display: none;
+    }
+   
+  }
+
+  /* container-second-page-main */
+  @media only screen and (max-width: 430px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   .sec-img{
+    /* border: 2px solid blue; */
+    height: 420px;
+   }
+   #impact1{
+    display: none;
+   }
+   #impact2{
+    display: none;
+   }
+   #impact3{
+    display: none;
+   }
+   
+  }
