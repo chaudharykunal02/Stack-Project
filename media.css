@@ -115,7 +115,7 @@
   }
 
   /* <!-- container-second-page-main --> */
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1049px) {
     .container-third-page-main{
         /* border: 2px solid blue; */
         /* height: 100vh; */
@@ -142,7 +142,7 @@
   }
 
   /* preferred section */
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1049px) {
   .preferred-main{
     /* border: 2px solid red; */
     text-align: center;
@@ -159,7 +159,7 @@
   }
 
   /* third main */
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1049px) {
        .our-rich-down{
         /* border: 2px solid red; */
         display: flex;
@@ -177,7 +177,7 @@
     }
 
     /* want section */
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1049px) {
       .want{
         /* border: 2px solid red; */
         margin-top: 1rem;

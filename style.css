@@ -876,6 +876,8 @@ span a {
 footer {
     background-color: #fffffb;
     padding: 20px 0;
+    font-family: "Source Sans Pro", Arial, sans-serif
+;
 }
 
 .footer-container {
@@ -995,3 +997,35 @@ footer {
     width: 30%;
     justify-content: space-around;
 }
+.logo-main{
+    /* border: 2px solid red; */
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.l-main{
+    /* border: 2px solid blue; */
+    width:  95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-left{
+    width: 85%;
+}
+.logo-right{
+    /* border: 2px solid green; */
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    
+    /* padding: 5px; */
+    a{
+        text-decoration: none;
+    }
+}
+
+
