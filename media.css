@@ -40,10 +40,34 @@
         display: none;
     }
   }
+   @media only screen and (max-width: 950px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-first-page-main{
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 100vh;
+    }
+    .First-overflow{
+        /* border: 2px solid blue; */
+        font-size: 40px;
+    }
+    #position-logo-stack1{
+        display: none;
+    }
+    #position-logo-stack2{
+        display: none;
+    }
+   
+  }
+
 
   /* stack overflow team */
 
-  @media only screen and (max-width: 430px) {
+  @media only screen and (max-width: 950px) {
     *{
         margin: 0;
         padding: 0;
@@ -68,7 +92,7 @@
   }
 
   /* container-second-page-main */
-  @media only screen and (max-width: 430px) {
+  @media only screen and (max-width: 1050px) {
     *{
         margin: 0;
         padding: 0;
@@ -89,3 +113,123 @@
    }
    
   }
+
+  /* <!-- container-second-page-main --> */
+  @media only screen and (max-width: 768px) {
+    .container-third-page-main{
+        /* border: 2px solid blue; */
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .thri-cards {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .thri-card{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .message{
+        display: flex;
+        flex-direction: column;
+    }
+  
+  }
+
+  /* preferred section */
+  @media only screen and (max-width: 768px) {
+  .preferred-main{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  p{
+    font-size: 30px;
+  }
+  a{
+    margin-top: 1rem;
+  }
+  
+  }
+
+  /* third main */
+  @media only screen and (max-width: 768px) {
+       .our-rich-down{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+       } 
+       .o-r-d-left{
+        width: 100%;
+       }
+       .o-r-d-right{
+        width: 100%;
+       }
+       .our-rich{
+        margin-bottom: 1rem;
+       }
+    }
+
+    /* want section */
+    @media only screen and (max-width: 768px) {
+      .want{
+        /* border: 2px solid red; */
+        margin-top: 1rem;
+        width: 100%;
+
+      }
+      .want-up{
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .want-down{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .want-card{
+        width: 100%;
+        height: 100%;
+      }
+      .w-card-up{
+        padding: 10px;
+      }
+      .w-card2{
+        /* border: 2px solid blue; */
+        width: 100%;
+        display: flex;
+        margin-top: 1rem;
+      }
+      .o-r-d-right{
+        height: 100vh;
+        img{
+          width: 80%;
+        }
+      }
+      .w-card-1{
+        /* border: 2px solid blue; */
+        padding: 3rem;
+      }
+      .w-card2{
+        /* border: 2px solid blue; */
+        padding: 3rem;
+      }
+      .get-container{
+        width: 100%;
+        h1{
+          font-size: 30px;
+        }
+        a{
+          width: 13rem;
+        }
+      }
+     }
