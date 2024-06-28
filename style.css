@@ -120,41 +120,7 @@ span a {
     text-decoration: none;
 }
 
-/* copyRight Section */
-.copyright {
-    width: 100%;
-    border-top: 1px solid black;
-    /* border: 2px solid green; */
-    display: flex;
-    padding: 1.5rem;
-    font-family: "Source Sans Pro", Arial, sans-se;
-    font-size: 12px;
-    margin-bottom: 4rem;
-}
 
-.copyright-left {
-    width: 30%;
-    /* border: 2px solid blue; */
-    color: #636b74;
-}
-
-.copyright-right {
-    width: 70%;
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: end;
-    align-items: center;
-
-    ul {
-        /* border: 2px solid blue; */
-        width: 90%;
-        display: flex;
-        justify-content: end;
-        justify-content: space-around;
-        align-items: end;
-        list-style: none;
-    }
-}
 
 /* Stack Overflow for your team, now powered by Area */
 
